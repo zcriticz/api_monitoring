@@ -1,13 +1,17 @@
 import {Badge, Dropdown} from 'antd';
-import type {MenuProps} from 'antd';
+import type { MenuProps } from 'antd';
 import {BellOutlined} from '@ant-design/icons';
 import LogoDi2win from '../../../../../assets/d2win.svg';
 
 export default function Header() {
     const errorList = [
-        'Erro 1: Falha ao carregar dados.',
-        'Erro 2: Conexão instável.',
-        'Erro 3: Token expirado.',
+        'Erro 1',
+        'Erro 2',
+        'Erro 3',
+        'Erro 4',
+        'Erro 5',
+        'Erro 6',
+        'Erro 7',
     ];
 
     const items: MenuProps['items'] = errorList.map((err, i) => ({
