@@ -1,17 +1,19 @@
-# Sobre
+# InfinityTech
 
-A InfinityTech é uma API RESTful desenvolvida com React/Typescript e Java/Spring Boot. Seu objetivo é monitorar
-falhas na API
-ExtrAI Dados da Di2win, fornecendo relatórios detalhados sobre erros e desempenho.
+A InfinityTech é uma API RESTful desenvolvida com React/Typescript e Java/Spring Boot. Seu objetivo é monitorar falhas
+na API ExtrAI Dados da Di2win, fornecendo relatórios detalhados sobre erros e desempenho.
 
 ## Ficha Técnica
 
-- Base URL: https://api.infinitytech.com
-- Formato de Dados: JSON para requisições e respostas.
-- Autenticação: **A definir**
-- Códigos de status: 200 Ok: Requisição atendida com sucesso. 201 Created: Recurso criado com sucesso 400 Bad
-- Request: Erro na requisição (por exemplo, parâmetros incorretos). 404 Not Found: Arquivo ou recurso não localizado.
-  500 Internal Server Error: Erro interno do servidor.
+- **Base URL:** https://api.infinitytech.com
+- **Formato de Dados:** JSON para requisições e respostas.
+- **Autenticação:** _A definir_
+- **Códigos de status:**
+  - 200 OK: Requisição atendida com sucesso.
+  - 201 Created: Recurso criado com sucesso.
+  - 400 Bad Request: Erro na requisição (por exemplo, parâmetros incorretos).
+  - 404 Not Found: Arquivo ou recurso não localizado.
+  - 500 Internal Server Error: Erro interno do servidor.
 
 ## Features
 
@@ -43,35 +45,38 @@ ExtrAI Dados da Di2win, fornecendo relatórios detalhados sobre erros e desempen
 
 [![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)](https://maven.apache.org/)
 
-## Pre-requisitos
+## Pré-requisitos
 
-1. Instale as dependências do backend:
+### Frontend
 
-- Instale o [Nodejs](https://nodejs.org/pt) (versão 18 ou superior) (versão 18 ou superior)
+- Instale o [Node.js](https://nodejs.org/pt) (versão 18 ou superior)
 - Instale o pnpm: `npm install -g pnpm`
-- Instale [o Java 17 ou superior](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)
-- Execute o SpringBoot (não confundir com o Spring Freamework). Recomendo fazer o init pelo
-  site [Spring Initializr](https://start.spring.io/)
 
+### Backend
+
+- Instale o [Java 17 ou superior](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)
+- Instale o [Maven](https://maven.apache.org/)
 - Instale o [PostgreSQL](https://www.postgresql.org/download/)
+- Recomenda-se iniciar o projeto backend pelo [Spring Initializr](https://start.spring.io/)
 
-## Guia de instalação
+## Guia de Instalação
 
 1. Clone o repositório: https://github.com/zcriticz/infinitytech.git
 
-2. Abra o projeto no seu editor de código favorito (recomendo
+2. Abra o projeto no seu editor de código favorito (recomenda-se
    o [IntelliJ IDEA](https://www.jetbrains.com/idea/download/))
 
-3. Abra o terminal e rode os seguintes comandos:
+### Frontend
 
-```bash
-pnpm install
-pnpm run dev
-```
+3. No terminal, acesse a pasta `frontend` e execute:
 
-Isto iniciará o servidor de desenvolvimento do frontend.
+   ```bash
+   pnpm install
+   pnpm run dev
 
-4. Para o backend, abra o terminal na pasta do projeto e execute:
+### Backend
+
+1. Para o backend, abra o terminal na pasta do projeto e execute:
 
 ```bash
 mvn spring-boot:run
@@ -79,16 +84,19 @@ mvn spring-boot:run
 
 Para mais detalhes, consulte a documentação do Spring Boot. Vocẽ pode encontrá-lo no arquivo `pom.xml` do projeto.
 
-5. Certifique-se de que o banco de dados PostgreSQL esteja rodando e configurado corretamente.
+2. Certifique-se de que o banco de dados PostgreSQL esteja rodando e configurado corretamente.
 
 ## Autores
 
 - [Vitor Martins](https://github.com/VitorMarins) - Desenvolvedor Frontend
 - [Vinicius Gabriel](https://github.com/viniciusgss) - Desenvolvedor Frontend
+- [Luciano Tomaz](https://github.com/HadryTz) - Desenvolvedor Frontend
 - [Cristian Santos](https://github.com/zcriticz) - Desenvolvedor Backend
 - [Gabriela Pires](https://github.com/Gabipsn11) - Desenvolvedora Backend
+- [Pedro Vitor](https://github.com/PV-Lopes) - Banco de Dados
 - [Rayra Lima](https://github.com/Rayralima) - Banco de Dados
 
 ## Licença
+
 Este projeto é licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
