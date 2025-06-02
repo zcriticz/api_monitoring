@@ -1,41 +1,36 @@
-# Configuração do aplicativo
-spring.application.name=infinitytech-api
+# =====================================================================
+# As configura��es comentadas com # s�o para uso futuro com o Supabase.
+# As configura��es ativas (sem #) s�o para testes locais usando o banco H2.
+# Quando o banco do Supabase estiver pronto, basta descomentar as linhas
+# correspondentes e comentar ou remover as do H2.
+# =====================================================================
 
-# Banco de Dados (Supabase - PostgreSQL)
-spring.datasource.url=jdbc:postgresql://db.bsfhewhbzunqswehejum.supabase.co:5432/Dados_D2Y?sslmode=require
+# Configura��o do banco de dados PostgreSQL hospedado no Supabase
+spring.datasource.url=jdbc:postgresql://db.bsfhewhbzunqswehejum.supabase.co:5432/postgres?sslmode=require
 spring.datasource.username=postgres
+# OU SO postgres
 spring.datasource.password=@D2yS3nhaSup3rC0mpl1cada
-spring.datasource.driver-class-name=org.postgresql.Driver
-
-# Configurações do JPA/Hibernate
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
-spring.jpa.properties.hibernate.format_sql=true
 
-# Pool de conexões (HikariCP)
-spring.datasource.hikari.maximum-pool-size=10
-spring.datasource.hikari.minimum-idle=5
-spring.datasource.hikari.idle-timeout=300000
-spring.datasource.hikari.connection-timeout=20000
+# Configura��o do banco de dados H2 PARA TESTE LOCAL ENQUANTO O BANCO DO SUPABASE N�O ESTIVER PRONTO
+#spring.datasource.url=jdbc:h2:mem:testdb
+#spring.datasource.driver-class-name=org.h2.Driver
+#spring.datasource.username=sa
+#spring.datasource.password=
 
-# API ExtrAI Dados
-extraidados.api.url=http://localhost:8089/api/portalEngines-processApp
+# Configura��o do banco de dados H2 (apenas para testes enquanto o banco n�o est� pronto, depois pode remover :) )
+#spring.jpa.hibernate.ddl-auto=create-drop
+#spring.jpa.show-sql=true
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.H2Dialect
+#spring.h2.console.enabled=true
+#spring.h2.console.path=/h2-console
+
+# Credenciais para acessar a API ExtraIdados
 extraidados.api.token=oPocS5I1puOtYBJqDPk7XTQI01fTAzIjEbAWIcnDgxWIEYE9Zu
 extraidados.api.userId=339
-extraidados.api.base-url=https://homol.extraidados.com.br
 
-# Actuator
-management.endpoints.web.exposure.include=health,metrics
-management.metrics.web.client.requests-metric-enabled=true
-
-# Swagger
-springdoc.api-docs.path=/v3/api-docs
-springdoc.swagger-ui.path=/swagger-ui.html
-springdoc.swagger-ui.enabled=true
-
-# Logging
-logging.level.org.springframework=INFO
-logging.level.com.di2win=DEBUG
-logging.level.org.hibernate.SQL=DEBUG
-logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE
+# Configura��es do servidor
+# AINDA FALTA SER FEITO, ESPERANDO O BANCO.
+# FALAR COM O PESSOAL RESPONS�VEL PELO SUPABASE PARA A CONFIGURA��O
