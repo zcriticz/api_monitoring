@@ -1,29 +1,29 @@
 # InfinityTech
 
-InfinityTech is a RESTful API developed with React/TypeScript and Java/Spring Boot. Its goal is to monitor failures in
-the Di2win ExtrAI Dados API, providing detailed reports on errors and performance.
+InfinityTech é uma API RESTful desenvolvida com React/TypeScript e Java/Spring Boot. Seu objetivo é monitorar falhas na
+API Di2win ExtrAI Dados, fornecendo relatórios detalhados sobre erros e desempenho.
 
-## API Reference
+## Referência da API
 
-- **Base URL:** https://api.infinitytech.com
-- **Data Format:** JSON for requests and responses.
-- **Authentication:** _To be defined_
-- **Status Codes:**
-  - 200 OK: Request successfully processed.
-  - 201 Created: Resource successfully created.
-  - 400 Bad Request: Error in the request (e.g., incorrect parameters).
-  - 404 Not Found: File or resource not found.
-  - 500 Internal Server Error: Internal server error.
+- **URL Base:** https://api.infinitytech.com
+- **Formato dos Dados:** JSON para requisições e respostas.
+- **Autenticação:** _A ser definido_
+- **Códigos de Status:**
+  - 200 OK: Requisição processada com sucesso.
+  - 201 Created: Recurso criado com sucesso.
+  - 400 Bad Request: Erro na requisição (ex: parâmetros incorretos).
+  - 404 Not Found: Arquivo ou recurso não encontrado.
+  - 500 Internal Server Error: Erro interno do servidor.
 
-## Features
+## Funcionalidades
 
-- Dashboard with charts and indicators
-- Detailed error table
-- Date filters and search
-- Report downloads
-- Real-time error notifications
+- Dashboard com gráficos e indicadores
+- Tabela detalhada de erros
+- Filtros de data e busca
+- Download de relatórios
+- Notificações de erro em tempo real
 
-## Technologies
+## Tecnologias
 
 ### Frontend
 
@@ -45,69 +45,66 @@ the Di2win ExtrAI Dados API, providing detailed reports on errors and performanc
 
 [![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)](https://maven.apache.org/)
 
-## Prerequisites
+## Pré-requisitos
 
 ### Frontend
 
-- Install [Node.js](https://nodejs.org/en) (version 18 or higher)
-- Install pnpm: `npm install -g pnpm`
+- Instale o [Node.js](https://nodejs.org/en) (versão 18 ou superior)
+- Instale o pnpm: `npm install -g pnpm`
 
 ### Backend
 
-- Install [Java 17 or higher](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)
-- Install [Maven](https://maven.apache.org/)
-- Install [PostgreSQL](https://www.postgresql.org/download/)
-- It is recommended to start the backend project using [Spring Initializr](https://start.spring.io/)
+- Instale o [Java 17 ou superior](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)
+- Instale o [Maven](https://maven.apache.org/)
+- Instale o [PostgreSQL](https://www.postgresql.org/download/)
+- Recomenda-se iniciar o projeto backend usando o [Spring Initializr](https://start.spring.io/)
 
-## Installation Guide
+## Guia de Instalação
 
-- Clone the repository: https://github.com/zcriticz/infinitytech.git
+- Clone o repositório: https://github.com/zcriticz/infinitytech.git
 
-- Open the project in your favorite code editor (we
-  recommend [IntelliJ IDEA](https://www.jetbrains.com/idea/download/))
+- Abra o projeto no seu editor de código favorito (recomendamos
+  o [IntelliJ IDEA](https://www.jetbrains.com/idea/download/))
 
 ### Frontend
 
-- In the terminal, go to the `frontend` folder and run:
+- No terminal, acesse a pasta `frontend` e execute:
 
    ```bash
    pnpm install
-   pnpm run dev
+   pnpm run dev# InfinityTech
 
 ### Backend
 
-For the backend, open the terminal in the project folder and run:
+Para o backend, abra o terminal na pasta do projeto e execute:
 
 `mvn spring-boot:run`
 
-- For more details, check the Spring Boot documentation. You can find it in the project's pom.xml file.
+- Para mais detalhes, consulte a documentação do Spring Boot. Você pode encontrá-la no arquivo `pom.xml` do projeto.
 
-- Make sure PostgreSQL is running and properly configured.
-  Contribution Guide
-  We welcome contributions! To contribute, please follow these steps:
+- Certifique-se de que o PostgreSQL está em execução e devidamente configurado.
 
-## Contribution Guide
+## Guia de Contribuição
 
-We welcome contributions! To contribute, please follow these steps:
+Contribuições são bem-vindas! Para contribuir, siga estes passos:
 
-1. Fork this repository.
-2. Create a new branch for your feature or bugfix: git checkout -b feature/your-feature
-3. Make your changes and commit them with clear messages.
-4. Push your branch: git push origin feature/your-feature
-5. Open a Pull Request describing your changes.
+1. Faça um fork deste repositório.
+2. Crie um novo branch para sua feature ou correção: git checkout -b feature/sua-feature
+3. Faça suas alterações e faça commit com mensagens claras.
+4. Envie seu branch: git push origin feature/sua-feature
+5. Abra um Pull Request descrevendo suas alterações.
+6. Por favor, garanta que seu código siga o estilo do projeto e inclua testes quando aplicável.
 
-Please ensure your code follows the project's style and includes tests when applicable.
+## Autores
 
-## Authors
+- Vitor Marins - Desenvolvedor Frontend
+- Vinicius Gabriel - Desenvolvedor Frontend
+- Luciano Tomaz - Desenvolvedor Frontend
+- Cristian Santos - Desenvolvedor Backend
+- Gabriela Pires - Desenvolvedora Backend
+- Pedro Vitor - Banco de Dados
+- Rayra Lima - Banco de Dados
 
-- Vitor Martins - Frontend Developer
-- Vinicius Gabriel - Frontend Developer
-- Luciano Tomaz - Frontend Developer
-- Cristian Santos - Backend Developer
-- Gabriela Pires - Backend Developer
-- Pedro Vitor - Database
-- Rayra Lima - Database
+## Licença
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
