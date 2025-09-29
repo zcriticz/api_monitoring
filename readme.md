@@ -72,7 +72,7 @@ API Di2win ExtrAI Dados, fornecendo relatórios detalhados sobre erros e desempe
 
    ```bash
    pnpm install
-   pnpm run dev# InfinityTech
+   pnpm vite
 
 ### Backend
 
