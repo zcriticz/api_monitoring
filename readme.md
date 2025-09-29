@@ -84,16 +84,6 @@ Para o backend, abra o terminal na pasta do projeto e execute:
 
 - Certifique-se de que o PostgreSQL está em execução e devidamente configurado.
 
-## Autores
-
-- Vitor Marins - Desenvolvedor Frontend
-- Vinicius Gabriel - Desenvolvedor Frontend
-- Luciano Tomaz - Desenvolvedor Frontend
-- Cristian Santos - Desenvolvedor Backend
-- Gabriela Pires - Desenvolvedora Backend
-- Pedro Vitor - Banco de Dados
-- Rayra Lima - Banco de Dados
-
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
