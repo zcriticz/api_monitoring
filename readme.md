@@ -1,11 +1,11 @@
-# InfinityTech
+# Api Monitoring
 
-InfinityTech é uma API RESTful desenvolvida com React/TypeScript e Java/Spring Boot. Seu objetivo é monitorar falhas na
+Api Monitoring é uma API RESTful desenvolvida com React/TypeScript e Java/Spring Boot. Seu objetivo é monitorar falhas na
 API Di2win ExtrAI Dados, fornecendo relatórios detalhados sobre erros e desempenho.
 
 ## Referência da API
 
-- **URL Base:** https://api.infinitytech.com
+- **URL Base:** https://api-monitoring/infinitytech.com
 - **Formato dos Dados:** JSON para requisições e respostas.
 - **Autenticação:** _A ser definido_
 - **Códigos de Status:**
