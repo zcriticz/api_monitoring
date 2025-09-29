@@ -5,7 +5,7 @@ API Di2win ExtrAI Dados, fornecendo relatórios detalhados sobre erros e desempe
 
 ## Referência da API
 
-- **URL Base:** https://api-monitoring/infinitytech.com
+- **URL Base:** https://infinityapi.vercel.app
 - **Formato dos Dados:** JSON para requisições e respostas.
 - **Autenticação:** _A ser definido_
 - **Códigos de Status:**
