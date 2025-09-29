@@ -66,6 +66,14 @@ API Di2win ExtrAI Dados, fornecendo relatórios detalhados sobre erros e desempe
 - Abra o projeto no seu editor de código favorito (recomendamos
   o [IntelliJ IDEA](https://www.jetbrains.com/idea/download/))
 
+## Build
+O projeto utiliza Vite como bundler. Para gerar os arquivos otimizados de produção, utilize o comando:
+
+```Bash
+tsc -b && vite build
+```
+Isso irá criar a pasta dist/ contendo os arquivos minificados e prontos para deploy em qualquer servidor estático.
+
 ### Frontend
 
 - No terminal, acesse a pasta `frontend` e execute:
