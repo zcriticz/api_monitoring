@@ -84,17 +84,6 @@ Para o backend, abra o terminal na pasta do projeto e execute:
 
 - Certifique-se de que o PostgreSQL está em execução e devidamente configurado.
 
-## Guia de Contribuição
-
-Contribuições são bem-vindas! Para contribuir, siga estes passos:
-
-1. Faça um fork deste repositório.
-2. Crie um novo branch para sua feature ou correção: git checkout -b feature/sua-feature
-3. Faça suas alterações e faça commit com mensagens claras.
-4. Envie seu branch: git push origin feature/sua-feature
-5. Abra um Pull Request descrevendo suas alterações.
-6. Por favor, garanta que seu código siga o estilo do projeto e inclua testes quando aplicável.
-
 ## Autores
 
 - Vitor Marins - Desenvolvedor Frontend
