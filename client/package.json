@@ -9,6 +9,7 @@
     "lint": "lint ."
   },
   "dependencies": {
+    "@ant-design/icons": "^6.0.2",
     "antd": "^5.25.3",
     "dayjs": "^1.11.13",
     "react": "^19.1.0",
