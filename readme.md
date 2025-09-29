@@ -61,7 +61,7 @@ API Di2win ExtrAI Dados, fornecendo relatórios detalhados sobre erros e desempe
 
 ## Guia de Instalação
 
-- Clone o repositório: https://github.com/zcriticz/infinitytech.git
+- Clone o repositório: https://github.com/zcriticz/api_monitoring.git
 
 - Abra o projeto no seu editor de código favorito (recomendamos
   o [IntelliJ IDEA](https://www.jetbrains.com/idea/download/))
